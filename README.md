@@ -24,7 +24,7 @@ yarn dev
 ### Installing
 
 ```bash
-git clone https://github.com/OlhaDemchenko/autocomlete-library.git
+git clone https://github.com/OlhaDemchenko/blog.git
 yarn install
 yarn dev
 ```
