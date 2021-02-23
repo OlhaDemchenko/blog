@@ -6,19 +6,24 @@
   align-items: center;
 
   section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex: 1;
-    height: 100px;
-    background-color: $xanadu;
     margin: 50px 20px 20px;
-    border-radius: 10px;
 
     a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $xanadu;
+      height: 100px;
+      border-radius: 10px;
       text-decoration: none;
       font-weight: bold;
       color: $mintCream;
+
+      &:hover {
+        cursor: pointer;
+        background-color: scale-color($xanadu, $lightness: -30%);
+      }
     }
   }
 }
