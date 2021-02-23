@@ -1,0 +1,24 @@
+@import '../../styles/colors';
+
+.nav {
+  position: fixed;
+  height: 60px;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: $xanadu;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  a {
+    color: $mintCream;
+    text-decoration: none;
+  }
+}
+
+.content {
+  margin-top: 60px;
+  padding: 20px;
+  width: 100%;
+}

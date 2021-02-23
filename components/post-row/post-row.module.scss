@@ -1,0 +1,34 @@
+@import "../../styles/colors";
+
+.root {
+  padding: 10px;
+  margin: 10px;
+
+  &:hover {
+    background-color: $mintCream;
+  }
+
+  td {
+    border-bottom: 1px $kombuGreen solid;
+  }
+
+  a {
+    text-decoration: none;
+    color: $kombuGreen;
+    text-transform: uppercase;
+
+    &:hover {
+      color: scale-color($kombuGreen, $lightness: +40%);
+    }
+  }
+
+  .delete {
+    color: $red;
+    text-align: center;
+
+    .icon:hover {
+      color: scale-color($red, $lightness: +40%);
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+@import "../../styles/colors";
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+
+  div {
+    flex: 1;
+  }
+
+  .input {
+    display: block;
+    width: 100%;
+    border: 1px $kombuGreen solid;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: $kombuGreen;
+
+    &:focus {
+      border: 2px $kombuGreen solid;
+      outline: none;
+    }
+  }
+
+  .label {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 20px 0 5px;
+    text-transform: uppercase;
+  }
+
+  .error {
+    margin: 2px 0 0 0;
+    color: scale-color($red, $lightness: +30%);
+    font-size: 0.8em;
+  }
+
+  .submit {
+    color: $mintCream;
+    background-color: $xanadu;
+    border: none;
+    margin: 20px 0 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: scale-color($xanadu, $lightness: +30%);
+    }
+  }
+}

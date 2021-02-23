@@ -1,0 +1,27 @@
+@import "../../styles/colors";
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.backButton {
+  color: $mintCream;
+  background-color: $xanadu;
+  border: none;
+  display: block;
+  margin: 10px 0 0 auto;
+  border-radius: 5px;
+  width: 200px;
+  padding: 10px;
+  text-transform: uppercase;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: scale-color($xanadu, $lightness: -30%);
+  }
+}

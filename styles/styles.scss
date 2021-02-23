@@ -1,0 +1,15 @@
+@import 'colors';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $kombuGreen;
+  background-color: scale-color($mintCream, $lightness: +70%);
+
+  h1 {
+    text-align: center;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
